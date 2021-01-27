@@ -114,6 +114,7 @@ i3status
 #lightdm
 #lightdm-gtk-greeter
 networkmanager
+noto-fonts
 os-prober
 sddm
 wadam-calamares-config
@@ -146,6 +147,8 @@ mousepad
 p7zip
 papirus-icon-theme
 pcmanfm-gtk3
+ttf-dejavu
+ttf-ubuntu-font-family
 unrar
 unzip
 zip
