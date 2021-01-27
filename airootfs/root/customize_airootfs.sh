@@ -27,7 +27,7 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 systemctl enable pacman-init.service choose-mirror.service systemd-networkd.service systemd-resolved.service
 systemctl set-default graphical.target
-systemctl enable sddm.service
+systemctl enable sddm.service haveged.service
 
 pacman-key --init
 pacman-key --populate archlinux
