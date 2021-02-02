@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+if [ -d out ]; then
+    echo ":: Removing out folder..."
+    sudo rm -rf out
+else
+    echo ":: Out folder not found..."
+fi
+
+if [ -d work ]; then
+    echo ":: Removing work folder..."
+    sudo rm -rf work
+else
+    echo ":: Work folder not found..."
+fi
+
+echo
+echo ":: Done..."

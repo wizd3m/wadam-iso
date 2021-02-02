@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+clear
+
+if [ -d out ]; then
+    echo ":: Removing out folder..."
+    sudo rm -rf out
+fi
+
+if [ -d work ]; then
+    echo ":: Removing work folder..."
+    sudo rm -rf work
+fi
+
+sudo mkarchiso -v -w work -o out wadam
